@@ -1,9 +1,41 @@
-# Web-Dev-Front-end-----HTML-CSS
-HTML • CSS • JavaScript • Responsive Design • CSS Grid • Flexbox • Frontend Frameworks 
+☕ Coffee Landing Page Website
 
-Frontend Projects & UI Experiments
-A collection of frontend development projects built using HTML, CSS, and JavaScript, focused on responsive design, modern UI layouts, and real-world website implementations. This repository includes landing pages, component designs, layout experiments, and framework-based projects created for learning, practice, and portfolio showcase.
-A growing repository of frontend development projects featuring responsive websites, UI components, and layout systems built with HTML, CSS, JavaScript, and modern frontend frameworks.
+A modern and visually rich coffee shop landing page built using HTML and CSS, focused on clean UI design, storytelling, and responsive layouts.
+This project showcases a complete front-end implementation of a coffee brand website, including hero sections, product listings, story sections, and a structured footer.
 
+✨ Features
 
-This repository contains all my frontend development projects, experiments, and UI implementations, created while learning and building modern, responsive web interfaces.
+Elegant hero section with background images and call-to-action buttons
+“Our Story” section with editorial-style typography
+Product showcase cards with descriptions and pricing
+Visually appealing About Us, Contact Us, and Opening Hours footer
+Custom UI styling using Flexbox and CSS layouts
+Fully responsive design using media queries for desktop, tablet, and mobile views
+Premium coffee-themed color palette and typography
+
+🛠️ Technologies Used
+
+HTML5 – Semantic structure and content
+CSS3 – Styling, Flexbox layouts, gradients, and animations
+Media Queries – Responsive design across screen sizes
+Font Awesome – Icons
+Google Fonts – Typography (Playfair Display)
+
+📱 Responsive Design
+
+The website is optimized for:
+
+Desktop screens
+Tablets
+Mobile devices
+Media queries ensure proper layout scaling, readable typography, and user-friendly navigation on all devices.
+
+coffee-landing-page/
+│
+├── index.html
+├── style.css
+├── images/
+│   ├── bg images
+│   ├── product images
+│   └── logo & icons
+└── README.md
