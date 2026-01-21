@@ -23,9 +23,9 @@ HTML5 only
 📚 Concepts Practiced
 HTML document structure (<!DOCTYPE>, <head>, <body>)
 Semantic elements (<nav>, <header>, <section>, <form>)
-Lists (<ul>, <ol>)
-Links (<a>)
-Images (<img>)
+Lists ( <ul> , <ol> )
+Links ( <a> )
+Images ( <img> )
 
 
 Purpose of the Project
