@@ -57,7 +57,7 @@ Media queries ensure smooth layout adaptation across different screen sizes.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/artistry-landing-page.git
+   git clone https://github.com/yxshas565/artistry-landing-page.git
 
 
 
