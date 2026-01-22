@@ -1,9 +1,64 @@
-# Web-Dev-Front-end-----HTML-CSS
-HTML • CSS • JavaScript • Responsive Design • CSS Grid • Flexbox • Frontend Frameworks 
+# 🎨 Artistry – Cinematic Art Landing Page
 
-Frontend Projects & UI Experiments
-A collection of frontend development projects built using HTML, CSS, and JavaScript, focused on responsive design, modern UI layouts, and real-world website implementations. This repository includes landing pages, component designs, layout experiments, and framework-based projects created for learning, practice, and portfolio showcase.
-A growing repository of frontend development projects featuring responsive websites, UI components, and layout systems built with HTML, CSS, JavaScript, and modern frontend frameworks.
+Artistry is a modern, visually rich, and responsive landing page designed for an art-focused website.  
+The project emphasizes cinematic UI/UX, bold typography, and immersive visuals using pure **HTML and CSS**.
+
+This project demonstrates strong fundamentals in layout design, responsiveness, and visual hierarchy without using JavaScript.
+
+---
+
+## ✨ Features
+
+- 🎨 Artistic & cinematic UI design
+- 📱 Fully responsive (Desktop, Tablet, Mobile)
+- 🖼️ Image-focused layout for art showcasing
+- 🎭 Hover effects and smooth transitions
+- 🌈 Gradient-based typography for premium feel
+- 🧩 Clean section-based layout (Hero, Art Types, Footer)
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **CSS3**
+- **Font Awesome Icons**
+- **Google Fonts**
+
+---
+
+## 📂 Project Structure
+
+Artistry/
+│── index.html
+│── style.css
+│── images/
+│ ├── art-1.jpg
+│ ├── painting-art.jpg
+│ ├── sculpture-img.jpg
+│ └── ...
 
 
-This repository contains all my frontend development projects, experiments, and UI implementations, created while learning and building modern, responsive web interfaces.
+
+---
+
+## 📱 Responsive Design
+
+The landing page is optimized for:
+- ✔ Desktop screens
+- ✔ Tablets
+- ✔ Mobile devices
+
+Media queries ensure smooth layout adaptation across different screen sizes.
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/artistry-landing-page.git
+
+
+
+
