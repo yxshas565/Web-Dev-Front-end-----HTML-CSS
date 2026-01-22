@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dynalight&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap");
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  height: 220vh;
+  /* min-height: 100vh; */
+  /* height: 200vh;
+    overflow: hidden;  */
+}
+
+.sub-section-1 {
+  height: 100vh;
+  background-image: url(./images/img-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: contrast(130%);
+}
+.sub-section-1 nav {
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  color: whitesmoke;
+  justify-content: space-between;
+}
+.sub-section-2 {
+  height: 120vh;
+  /* min-height: 100vh; */
+  /* background-image: url(./images/img-2.jpg); */
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/005/935/712/small_2x/3d-black-technology-abstract-background-overlap-layer-on-dark-space-with-silver-stripe-effect-decoration-graphic-design-element-future-style-concept-for-flyer-brochure-cover-or-landing-page-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: contrast(150%);
+}
+.div-1 {
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  position: relative;
+  left: 100px;
+  top: 20px;
+  background: linear-gradient(
+    yellow,
+    blue,
+    orange,
+    rgb(236, 156, 169),
+    whitesmoke,
+    blue
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.div-2 {
+  font-family: serif;
+  font-style: normal;
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+.div-2 ul {
+  position: relative;
+  top: 50px;
+  cursor: pointer;
+}
+.div-2 ul li {
+  transition: all;
+  transition-duration: 0.8s;
+  transition-timing-function: linear;
+  color: goldenrod;
+}
+.div-2 ul li:hover {
+  opacity: 0.6;
+}
+.div-2 button {
+  padding: 10px;
+  border-radius: 20px;
+  position: relative;
+  top: 40px;
+  right: 100px;
+  /* background-color: rgb(203, 164, 129); */
+  background: linear-gradient(goldenrod, black);
+  /* color: rgb(212, 199, 199); */
+  color: whitesmoke;
+  /* color: rgb(183, 183, 169); */
+  /* border: 2px solid rgb(203,164,129); */
+  border: 0.5px solid goldenrod;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.div-2 button:hover {
+  /* background-color: transparent; */
+  opacity: 0.5;
+  /* color: whitesmoke; */
+  color: gold;
+}
+
+.sub-section-1 main {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.sub-section-1 .main-div {
+  height: 310px;
+  width: 250px;
+  box-shadow:
+    0 0 5px #ff6a00,
+    0 0 15px #ff3c00,
+    0 0 30px #ff0000;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 1.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.sub-section-1 .main-div:hover {
+  transform: scale(1.1);
+}
+
+.sub-section-1 article {
+  height: 30vh;
+  color: whitesmoke;
+}
+
+.sub-section-1 article button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  background: linear-gradient(orange, red, brown);
+  cursor: pointer;
+  border: 0.5px solid red;
+  text-align: center;
+  /* transition: all;
+    transition-duration: 2s;
+    transition-timing-function: linear; */
+  position: relative;
+  top: 20px;
+  left: 570px;
+  color: whitesmoke;
+  transition: opacity 0.6s ease;
+}
+.sub-section-1 article button:hover {
+  opacity: 0.4;
+}
+
+.sub-section-1 article h1 {
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+.sub-section-1 article p {
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.section-2-div {
+  height: 80vh;
+  /* padding: 4rem 0; */
+  color: whitesmoke;
+}
+
+.section-2-div h1 {
+  font-family: "Dynalight", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 40px;
+}
+
+.sub-section-2 .main-div {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  gap: 20px;
+}
+.sub-section-2 .main-div div {
+  /* margin-right: 5px; */
+  height: 430px;
+  width: 180px;
+  /* border: 1px solid whitesmoke; */
+}
+
+.sub-section-2 .main-div .sub-div h1 {
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(
+    red,
+    red,
+    gold,
+    rgb(159, 124, 59),
+    gold,
+    red,
+    red
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub-section-2 footer {
+  height: 30vh;
+}
+
+footer .main-main-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+footer .child-div {
+  /* border: 1px solid whitesmoke; */
+  height: 150px;
+  width: 280px;
+  background: linear-gradient(
+    gold,
+    rgb(97, 97, 149),
+    purple,
+    gold,
+    purple,
+    blue
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@media (max-width: 1024px) {
+
+  .div-2 {
+    gap: 100px;
+  }
+
+  .sub-section-1 main {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .sub-section-1 article button {
+    left: 0;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .sub-section-2 .main-div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sub-section-2 .main-div div {
+    height: auto;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .sub-section-1 nav {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+  }
+
+  .div-1 {
+    left: 0;
+    top: 0;
+    font-size: 42px;
+  }
+
+  .div-2 {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .div-2 ul {
+    top: 0;
+    gap: 20px;
+  }
+
+  .div-2 button {
+    top: 0;
+    right: 0;
+  }
+
+  /* HERO CARDS */
+  .sub-section-1 main {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    gap: 25px;
+  }
+
+  /* ARTICLE */
+  .sub-section-1 article {
+    height: auto;
+    padding: 20px;
+  }
+
+  /* SECTION 2 */
+  .section-2-div {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .sub-section-2 {
+    height: auto;
+  }
+
+}
+@media (max-width: 480px) {
+
+  /* LOGO */
+  .div-1 {
+    font-size: 34px;
+  }
+
+  /* NAV MENU */
+  .div-2 ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 16px;
+  }
+
+  /* CARDS */
+  .sub-section-1 .main-div {
+    width: 220px;
+    height: auto;
+  }
+
+  .sub-section-1 .main-div img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* SECTION 2 TITLE */
+  .section-2-div h1 {
+    font-size: 32px;
+  }
+
+  /* ART TYPES */
+  .sub-section-2 .main-div {
+    flex-direction: column;
+  }
+
+  .sub-section-2 .main-div div {
+    width: 200px;
+  }
+
+  /* FOOTER */
+  footer .main-main-div {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  footer .child-div {
+    width: 100%;
+    height: auto;
+  }
+
+}
