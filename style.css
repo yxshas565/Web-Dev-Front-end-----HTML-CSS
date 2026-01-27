@@ -107,7 +107,7 @@ article{
     height: 100vh;
     /* background: linear-gradient( #ffffd1 0.000%, #ffe07e 16.667%, #ff531e 33.333%, #730000 50.000%, #000000 66.667%, #002d2f 83.333%, #0bbc91 100.000%); */
     color: rgba(241, 229, 229, 0.922);
-    background-image: url(./images/bg-img-2-Coffee-Shop.jpg);
+    background-image: url(./images/bg-img-2-coffee-Shop.jpg);
     background-repeat: repeat;
     background-size: contain;
     background-position: top;
@@ -168,7 +168,7 @@ aside{
     height: 90vh;
     /* background: linear-gradient( #ffffd1 0.000%, #ffe07e 16.667%, #ff531e 33.333%, #730000 50.000%, #000000 66.667%, #002d2f 83.333%, #0bbc91 100.000%); */
     color: rgba(239, 237, 237, 0.865);
-    background-image: url(./images/new_bg-img-Coffee-Shop.jpg);
+    background-image: url(./images/new_bg-img-coffee-Shop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -527,3 +527,4 @@ footer p{
     font-size: 13px;
   }
 }
+
